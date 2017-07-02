@@ -1,12 +1,20 @@
-<div>
+<div class="sub-entry">
+  <h3>Operator (+) : Addition</h3>
+  <h3>Operator (-) : Substraction</h3>
+  <h3>Operator (/) : Division</h3>
+  <h3>Operator (*) : Multiplication</h3>
+  <h3>Operator (^) : Squre</h3>
+  <h3>Operator (%) : Squre Root</h3>
+</div>
+<div class="sub-entry2">
   <label for="fname">Number1</label>
-    <input [(ngModel)]="no1" type="text" placeholder="Enter No1">
+    <input [(ngModel)]="no1" type="number" placeholder="Enter No1">
 
     <label for="lname">Operator</label>
     <input [(ngModel)]="operator" type="text" placeholder="Enter operator (ex : + , - , / , *)">
 
     <label for="country">Number2</label>
-    <input [(ngModel)]="no2" type="text" placeholder="Enter No2">
+    <input [(ngModel)]="no2" type="number" placeholder="Enter No2">
 
     <input type="submit" value="Calculate" (click)="calculate()">
 
